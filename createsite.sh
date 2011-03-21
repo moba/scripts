@@ -17,5 +17,5 @@ git remote add upstream https://github.com/splitbrain/dokuwiki.git
 git checkout -b stable origin/stable 
 mkdir data/cache # git doesn't track empty dirs
 cd lib/tpl/
+rmdir minimal
 git clone git://github.com/moba/dokuwiki-minimal.git minimal
-
