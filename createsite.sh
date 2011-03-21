@@ -9,7 +9,7 @@ then
   exit $E_BADARGS
 fi
 
-mkdir /var/www/sites/$1
+mkdir -p /var/www/sites/$1
 cd /var/www/sites/$1
 git clone git://github.com/moba/dokuwiki.git htdocs
 cd htdocs
